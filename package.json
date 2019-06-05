@@ -1,0 +1,21 @@
+{
+  "name": "webpack-analyze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "bin": {
+    "xwebpack": "webpack1.js"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.2",
+    "webpack": "^4.32.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "build:new": "xwebpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
